@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    padding-top: 30px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+}
+
+main table {
+    padding: 20px;
+    border-spacing: 40px;
+
+}
+
+main th {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pop{
+    background-color:rgba(0, 0, 0, 0.377);
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none;
+}
+.pop-content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;      
+    border: 1px solid gray; 
+    width: 600px;                                   
+    background-color: white;    
+    z-index: 20;      
+    padding: 20px ;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 200px;
+
+
+
+}
+
+.mark table{
+margin-top: 20px;
+}
+.mark th{
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
