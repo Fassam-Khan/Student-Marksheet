@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Student Marksheet</title>
 </head>
 
 <body>
-    <header>
-        <h1> Students Marksheets
-        </h1>
-    </header>
+   <header>
+    <h1>Students Marksheet</h1>
+   </header>
 
     <main>
         <h2>Computer Science Depart Students</h2>
@@ -26,7 +28,7 @@
                 </tr>
             </thead>
             <tbody id="table-body">
-
+                <!-- Dynamally here  -->
             </tbody>
         </table>
     </main>
@@ -34,17 +36,46 @@
 
     <div class="pop" id="showPop">
         <div class="pop-content" id="pop-content">
+            <div class="student">
+                <div>
+                    <h4 id="studentID">Student Id: 01</h4>
+                    <h4 id="studentName">Student Name: Fassam</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-x" style="cursor: pointer;" onclick="popCross()"></i>
+                </div>
+            </div>
+            <div class="mark">
+                <table>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Marks</th>
+                        <th>Percentage</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td id="Semester">01</td>
+                        <td id="mark">300</td>
+                        <td>80%</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                    </tr>
 
-           
-            
+                </table>
+
+            </div>
+
+
         </div>
-    
+
 
 
     </div>
 
 
-  
+
 
 
 
